@@ -24,7 +24,7 @@ const DataPage = ({ onBack }) => {
   return (
     <div>
       <button onClick={onBack}>Back</button>
-      <h2>Information </h2>
+      <h2>Table</h2>
       
       {loading ? (
         <p>Gathering...</p>
