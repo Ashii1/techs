@@ -25,9 +25,9 @@ table {
     padding: 8px;
   }
   
- /* tr:nth-child(even) {
+ tr:nth-child(even) {
     background-color: #f9f9f9;
-  }*/
+  }
   
   button {
     margin-top: 20px;
