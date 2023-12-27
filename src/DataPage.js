@@ -27,7 +27,7 @@ const DataPage = ({ onBack }) => {
       <h2>Data Page</h2>
       
       {loading ? (
-        <p>Loading...</p>
+        <p>Gathering...</p>
       ) : (
         <table>
           <thead>
