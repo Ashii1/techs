@@ -14,7 +14,7 @@ const LoginPage = ({ onLogin }) => {
       } 
      else {
       alert('Oops! Something went wrong.. Username and password cannot be empty');
-    }
+    }}
   };
 
   return (
