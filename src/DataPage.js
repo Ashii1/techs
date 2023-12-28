@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import './DataPage.css'; 
 
-const DataPage = ({ onBack }) => {
+const DataPage = ({ handleBack }) => {
   const [data, setData] = useState([]);
   const [loading, setLoading] = useState(true);
 
@@ -23,7 +23,7 @@ const DataPage = ({ onBack }) => {
 
   return (
     <div>
-      <button onClick={onBack}>Back</button>
+      <button onClick={handleBack}>Back</button>
       <h2>Table</h2>
       
       {loading ? (
