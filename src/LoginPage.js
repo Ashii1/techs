@@ -11,10 +11,8 @@ const LoginPage = ({ onLogin }) => {
 
       if (isAuthenticated) {
         onLogin();
-      } else {
-        alert('Invalid credentials');
-      }
-    } else {
+      } 
+     else {
       alert('Oops! Something went wrong. Username and password cannot be empty');
     }
   };
