@@ -16,7 +16,7 @@ const App = () => {
   return (
     <div>
       {isLoggedIn ? (
-        <DataPage onBack={handleBack} />
+        <DataPage handleBack={handleBack} />
       ) : (
         <LoginPage onLogin={handleLogin} />
       )}
