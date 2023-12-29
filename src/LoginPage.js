@@ -14,7 +14,7 @@ const LoginPage = ({ onLogin }) => {
       alert('Oops!! Something went wrong.. Username and password cannot be empty');
     }
   };
-}
+
   return (
     <div className='container'>
     <div className="login-container">
