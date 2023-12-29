@@ -9,12 +9,12 @@ const LoginPage = ({ onLogin }) => {
     if (username.trim() !== '' && password.trim() !== '') {
       
         onLogin();
-      } }
+      } 
      else {
       alert('Oops!! Something went wrong.. Username and password cannot be empty');
     }
   };
-
+}
   return (
     <div className='container'>
     <div className="login-container">
