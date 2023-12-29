@@ -7,9 +7,7 @@ const LoginPage = ({ onLogin }) => {
 
   const handleLogin = () => {
     if (username.trim() !== '' && password.trim() !== '') {
-      const isAuthenticated = true;
-
-      if (isAuthenticated) {
+      
         onLogin();
       } }
      else {
